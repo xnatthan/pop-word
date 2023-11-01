@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./pag2/img/disco-de-vinil.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./pag2/assets/style.css">
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <title>Pop World</title>
+</head>
+<body>
+    <div class="app2">
+        <header>
+            <a href="./index.html" ><img src="./assets/logo mic.png" width="10px" height="10px" alt=""></a>
+        
+        <ul class="nav">
+            <li>
+           <a href="./index.html" class="nav-link">Inicio</a>
+            </li>
+            <li>
+                <a href="./login.html" class="nav-link">Login</a>
+            </li>
+            <!--<li>
+                <a href="#" class="nav-link">****</a>
+            </li>-->
+            <li>
+                <a href="./index.html" class="nav-link">Voltar</a>
+            </li>
+           
+        </ul>
+        
+        
+           
+    </div>
+    </header>
+    
+    <section class="area-login">
+        <div class="login">
+        <form method="POST" action="controller/cadastraUsuarioController.php">
+            <h1>Cadastre-se</h1>
+            <input type="text" name="usuario" placeholder="Nome de usuário" autofocus>
+            <input type="email" name="email" placeholder="E-mail de usuário" autofocus>
+            <input type="password" name="senha" placeholder="Sua senha">
+            <input type="hidden" name="perfil_idperfil" value="2">
+            <input type="submit" value="Cadastrar" >
+        </form>
+       
+    </div>
+    </section>
+    
+</body>
+</html>
+
