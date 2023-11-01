@@ -1,0 +1,30 @@
+body{
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+article{
+    background:linear-gradient(white, #8981c9,#8981c1);
+    padding: 20px;
+    border-radius: 5%;
+    border: 3px solid rgb(0, 0, 0);
+    text-align: center;
+   
+}
+article:hover{
+    opacity: 1;
+    border: 3px solid #000000;
+}
+
+.ajust{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap:70px;
+}
