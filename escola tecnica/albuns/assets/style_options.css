@@ -1,0 +1,38 @@
+body{
+    background-color:#c2c2c2;
+    margin: 0 ;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    
+    
+}
+        
+article{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height: 600px;
+    width: 350px;
+    border: 3px solid #808080;
+  margin-top: 20px;
+}
+
+
+.alinhamento{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:70px;
+}
+
+p {
+    align-items: center;
+    justify-content: center;
+    left: 80%;
+}
+
