@@ -1,0 +1,78 @@
+@import url('../../styles/back.css');
+@import url('../../styles/header.css');
+@import url('../../styles/main.css');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --text: #EDF1F7;
+    --red: #C51212;
+    --blue: #0041C2;
+    --green: #14B02D;
+    --yellow: #ffc12b;
+
+  }
+  
+  body, button, a {
+    color: var(--text);
+    font: 400 1rem "Mukta", sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  button:hover {
+    cursor: pointer;
+  }
+
+  .app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    width: 100%;
+   
+    overflow:hidden;
+
+    
+  }
+  .app img {
+    height: 60px;
+    width: 30px;
+  }
+
+  .app2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   background-color: black;
+    width: 100%;
+    height: 100%;
+    overflow:hidden;
+}
+.app2 img {
+  height: 60px;
+  width: 30px;
+}
+  
+.app3 {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+   background-color: black;
+    width: 100%;
+    height: 100%;
+    overflow:hidden;
+    
+}
+
+.app3 img {
+  height: 60px;
+  width: 30px;
+}
